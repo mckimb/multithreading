@@ -32,8 +32,9 @@ def computeolr(average, date, lon, start_lat, end_lat, delta_lat):
         Enter spacing between latitude bands
 
     '''
+    
     print( "I'm a printer, I print the start- and end- latitude of the computation. {} and {}".format(start_lat, end_lat))
-
+    # Note for others: I have truncated the calculation because the details aren't important.
 
 
 if __name__ == '__main__':
